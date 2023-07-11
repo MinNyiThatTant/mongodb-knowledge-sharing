@@ -1,0 +1,76 @@
+
+{
+    "_id": 1,
+    "name": "ko ko",
+    "DoB": 2020,
+    "Gender": "male",
+    "contact": {
+        "Phone": 123456,
+        "email": "koko@univ.com"
+    },
+    "Address": {
+        "street": "minlan",
+        "city": "kyaukse",
+        "code": 100
+    },
+    "Course Enrolled": [
+        "CS",
+        "DBMS",
+        "Network",
+        "C++"
+    ],
+    "Activities": [
+        "football",
+        "tennis"
+    ]
+},
+{
+    "_id": 1,
+    "name": "ko ko",
+    "DoB": 2020,
+    "Gender": "male",
+    "contact": {
+        "Phone": 09875421,
+        "email": "koko@univ.com"
+    },
+    "Address": {
+        "street": "minlan",
+        "city": "kyaukse",
+        "code": 0001
+    },
+    "Course Enrolled": [
+        "CS",
+        "DBMS",
+        "Network",
+        "C++"
+    ],
+    "Activities": [
+        "football",
+        "tennis"
+    ]
+},
+{
+    "_id": 1,
+    "name": "ko ko",
+    "DoB": 2020,
+    "Gender": "male",
+    "contact": {
+        "Phone": 09875421,
+        "email": "koko@univ.com"
+    },
+    "Address": {
+        "street": "minlan",
+        "city": "kyaukse",
+        "code": 0001
+    },
+    "Course Enrolled": [
+        "CS",
+        "DBMS",
+        "Network",
+        "C++"
+    ],
+    "Activities": [
+        "football",
+        "tennis"
+    ]
+}
