@@ -22,9 +22,12 @@ mongo --port 27018
 
 or 
 go=> 
+
+mongosh directory => bin>
 ```
-mongosh directory => bin>mongosh --port 27018
+mongosh --port 27018
 ```
+
 
 ```
 config={_id:"myset", member:[{_id:0, host:"localhost:27018"},{_id:1, host:"localhost:27019"}, {_id:2,host:"localhost:27020"}]}
