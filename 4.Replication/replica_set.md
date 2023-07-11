@@ -14,7 +14,7 @@ start mongod -replSet myset -logpath \data\rs2\2.log --dbpath \data\rs2 --port 2
 start mongod -replSet myset -logpath \data\rs3\3.log --dbpath \data\rs3 --port 27020
 ```
 
-```
+
 bin> 
 ```mongo --port 27018 ```
 or 
