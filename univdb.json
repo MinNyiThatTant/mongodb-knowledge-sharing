@@ -4,6 +4,7 @@
     "name": "ko ko",
     "DoB": 2020,
     "Gender": "male",
+    "age": 21,
     "contact": {
         "Phone": 123456,
         "email": "koko@univ.com"
@@ -24,11 +25,13 @@
         "tennis"
     ]
 },
+
 {
     "_id": 1,
     "name": "ko ko",
     "DoB": 2020,
     "Gender": "male",
+    "age": 23,
     "contact": {
         "Phone": 09875421,
         "email": "koko@univ.com"
@@ -54,6 +57,7 @@
     "name": "ko ko",
     "DoB": 2020,
     "Gender": "male",
+    "age": 24,
     "contact": {
         "Phone": 09875421,
         "email": "koko@univ.com"
