@@ -7,11 +7,11 @@ This mongodb knowledge sharing is intend to know how it work, if you want to kno
 
 In this contents, 
 ``` js
-Inserting,
+Inserting
 Updating
 Finding
 Indexing
 Aggregation
 Replication
 Sharding
-CRUD with node.js driver
+CRUD: node.js driver
