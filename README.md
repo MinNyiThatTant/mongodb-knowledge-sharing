@@ -6,7 +6,8 @@
 
 In this, 
 ``` js
-inserting and updating document
+inserting
+updating document
 finding documents
 Indexing
 Aggregation
