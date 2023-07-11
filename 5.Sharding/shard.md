@@ -1,4 +1,4 @@
-
+C:\Program Files\MongoDB\Server\5.0\bin
 ```
 start mongod --configsve -replSet name -logpath \data\rs1\1.log --dbpath \data\rs1 --port 2023
 ```
