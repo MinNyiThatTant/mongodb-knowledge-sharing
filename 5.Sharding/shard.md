@@ -1,14 +1,14 @@
 C:\Program Files\MongoDB\Server\5.0\bin
 ```
-start mongod --configsve -replSet name -logpath \data\rs1\1.log --dbpath \data\rs1 --port 2023
+start mongod --configsvr -replSet name -logpath \data\rs1\1.log --dbpath \data\rs1 --port 2023
 ```
 
 ```
-start mongod --configsve -replSet name -logpath \data\rs2\2.log --dbpath \data\rs2 --port 2024
+start mongod --configsvr -replSet name -logpath \data\rs2\2.log --dbpath \data\rs2 --port 2024
 ```
 
 ```
-start mongod --configsve -replSet name -logpath \data\rs3\3.log --dbpath \data\rs3 --port 2025
+start mongod --configsvr -replSet name -logpath \data\rs3\3.log --dbpath \data\rs3 --port 2025
 ```
 
 ```
@@ -28,8 +28,8 @@ mongo --port 2023
 >rs.status()
 ```
 
-Create Shard folder => s1, s2
-s1 => data folder 
+Create Shard folder => s0, s1
+s0 => data folder 
 
 ```
 start mongod --shardsvr --port 2026 -logpath \data\shard\s0\s0.log --dbpath \data\shard\s0
