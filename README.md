@@ -8,7 +8,7 @@ Mongodb official website => [mongodb](www.mongodb.com)
 
 
 In this contents, 
-```json
+```js
 Inserting
 Updating
 Finding
