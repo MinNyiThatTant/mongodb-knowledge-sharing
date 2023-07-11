@@ -7,8 +7,8 @@
 In this, 
 ``` js
 inserting
-updating document
-finding documents
+updating
+finding
 Indexing
 Aggregation
 Replication and Sharding
