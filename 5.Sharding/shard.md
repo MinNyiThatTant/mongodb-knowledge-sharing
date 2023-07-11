@@ -24,7 +24,10 @@ config={_id:"name",members:[
 ```
 
 ```js
->rs.initiate(config)
+rs.initiate(config)
+```
+
+```js
 >rs.status()
 ```
 
