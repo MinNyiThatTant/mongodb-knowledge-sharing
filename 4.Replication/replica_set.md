@@ -1,5 +1,5 @@
 c:data/ create folder rs1, rs2, rs3
-```
+```js
 go=>  c: bin> start mongod -replSet myset -logpath \data\rs1\1.log --dbpath \data\rs1 --port 27018
 
 start mongod -replSet myset -logpath \data\rs2\2.log --dbpath \data\rs2 --port 27019
