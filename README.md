@@ -6,9 +6,9 @@
 
 In this, 
 ``` js
-inserting
-updating
-finding
+Inserting
+Updating
+Finding
 Indexing
 Aggregation
 Replication and Sharding
