@@ -16,10 +16,15 @@ start mongod -replSet myset -logpath \data\rs3\3.log --dbpath \data\rs3 --port 2
 
 
 bin> 
-```mongo --port 27018 ```
+```
+mongo --port 27018 
+```
+
 or 
 go=> 
-```mongosh directory => bin>mongosh --port 27018```
+```
+mongosh directory => bin>mongosh --port 27018
+```
 
 ```
 config={_id:"myset", member:[{_id:0, host:"localhost:27018"},{_id:1, host:"localhost:27019"}, {_id:2,host:"localhost:27020"}]}
@@ -36,7 +41,7 @@ mongo --port 27019
 ```
 
 >show dbs
-no show 
+//no show 
 
 ```js
 >rs.slaveOk()
