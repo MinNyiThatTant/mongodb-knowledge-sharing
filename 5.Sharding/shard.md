@@ -73,6 +73,7 @@ db.colname.insert({id:i, type:"rank"});
 
 ```json
 db.collname.getShardDistribution()
+```
 
 ```js
 sh.status()
