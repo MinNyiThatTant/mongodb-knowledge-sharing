@@ -8,7 +8,7 @@ Mongodb official website => [mongodb](www.mongodb.com)
 
 
 In this contents, 
-``` js
+```json
 Inserting
 Updating
 Finding
@@ -16,4 +16,4 @@ Indexing
 Aggregation
 Replication
 Sharding
-CRUD: node.js driver
+CRUD: with node.js driver
