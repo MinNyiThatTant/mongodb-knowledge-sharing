@@ -1,3 +1,9 @@
 // install some packages
-```npm init```
-```npm i express mongoose```
+
+```js
+npm init
+```
+
+```js
+npm i express mongoose
+```
