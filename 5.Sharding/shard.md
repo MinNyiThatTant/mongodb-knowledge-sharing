@@ -49,27 +49,31 @@ mongo --port 2028
 
 
 adding shard to routing server
->
+
 ```
 sh.addShard("localhost:2026")
 ```
 
 ```
 sh.addShard("localhost:2027")
+```
 
 ```
 sh.enableSharding("dbname")
+```
 
 ```
 sh.shardCollection("dbname.colname",{"_id":"hashed"})
-
+```
 
 ```js
 for(i=1; i<10000; i++){
 db.colname.insert({id:i, type:"rank"});
+```
 
 ```json
 db.collname.getShardDistribution()
 
 ```js
 sh.status()
+```
