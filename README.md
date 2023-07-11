@@ -15,5 +15,4 @@ Finding
 Indexing
 Aggregation
 Replication
-Sharding
 CRUD: with node.js driver
