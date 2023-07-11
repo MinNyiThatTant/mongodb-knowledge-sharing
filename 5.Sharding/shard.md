@@ -28,7 +28,7 @@ rs.initiate(config)
 ```
 
 ```js
->rs.status()
+rs.status()
 ```
 
 Create Shard folder => s0, s1
