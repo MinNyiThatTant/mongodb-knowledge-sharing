@@ -4,6 +4,6 @@
 npm init
 ```
 
-```diff_javascript
+```nodejs
 npm i express mongoose
 ```
