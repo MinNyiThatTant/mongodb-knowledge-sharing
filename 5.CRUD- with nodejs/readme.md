@@ -1,9 +1,9 @@
 // install some packages
 
-```js
+```nodejs
 npm init
 ```
 
-```js
+```diff_javascript
 npm i express mongoose
 ```
