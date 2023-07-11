@@ -19,7 +19,7 @@ mongo --port 2023
 >config={_id:"name",members:[
 {_id:0,host:"localhost:2023"},
 {_id:1,host:"localhost:2024"},
-{_id:3,host:"localhost:2025"},
+{_id:2,host:"localhost:2025"},
 ]}
 ```
 
