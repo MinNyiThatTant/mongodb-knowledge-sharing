@@ -4,7 +4,7 @@
 [mongodb](www.mongodb.com) <= mongodb official website
 
 
-In this, 
+In this contents, 
 ``` js
 Inserting
 Updating
