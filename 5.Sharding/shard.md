@@ -71,7 +71,7 @@ for(i=1; i<10000; i++){
 db.colname.insert({id:i, type:"rank"});
 ```
 
-``json
+```json
 db.collname.getShardDistribution()
 ```
 
