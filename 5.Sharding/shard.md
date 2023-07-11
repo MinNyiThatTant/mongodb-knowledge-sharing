@@ -28,7 +28,7 @@ mongo --port 2023
 >rs.status()
 ```
 
-create shard folder => s1, s2
+Create Shard folder => s1, s2
 s1 => data folder 
 
 ```
