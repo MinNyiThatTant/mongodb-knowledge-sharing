@@ -31,15 +31,15 @@ rs.initiate(config)
 rs.status()
 ```
 
-Create Shard folder => s0, s1
+Create Shard folder => s0, s1 
 s0 => data folder 
 
 ```
-start mongod --shardsvr --port 2026 -logpath \data\shard\s0\s0.log --dbpath \data\shard\s0
+start mongod --shardsvr --port 2026 -logpath \data\shard\s0\log\s0.log --dbpath \data\shard\s0
 ```
 
 ```
-start mongod --shardsvr --port 2027 -logpath \data\shard\s1\s1.log --dbpath \data\shard\s1
+start mongod --shardsvr --port 2027 -logpath \data\shard\s1\log\s1.log --dbpath \data\shard\s1
 ```
 
 ```
