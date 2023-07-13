@@ -40,7 +40,7 @@ db.employee.aggregate({$out:"employee1"})
 
 // $match, $group, $out
 db.employee.aggregate({$match:{address:"mandalay"}},
-                    {$group:{_id:"$address", total_count:{$sum:1}}}                      
+                    {$group:{_id:"$address", total_count:{$sum:1}}},                      
                     {$out:"next_employee"}
 )
 
