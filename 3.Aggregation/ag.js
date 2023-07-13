@@ -14,8 +14,8 @@ db.employee.aggregate({$match:{salary:{$gt:10000}}},
     )
 
 
-//group
-db.employee.find({},{address:1,salary:1,_id:0})
+//projection
+db.employee.find({},{address:1,salary:1})
 
 
 // {$group: {_id:<expression>, expression <field1>:{<accumulator1>:<expression1>}, ... }}
@@ -30,6 +30,10 @@ $sum
 
 
 db.employee.aggregate({$group:{_id:"$address", total_salary:{$sum:"$salary"}}})
+
+//$limit
+db.employee.aggregate({$limit: 2}, {$out: "firstlimit"})
+//$skip
 
 // $out <= copy collection
 db.employee.aggregate({$out:"employee1"})

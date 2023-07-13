@@ -1,4 +1,4 @@
-mongoimport c: \data\movies.json - d bookdb - c books
+mongoimport c: \data\books.json - d bookdb - c books
 // add json file 
 
 db.collection.getIndexes()
