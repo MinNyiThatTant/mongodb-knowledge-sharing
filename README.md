@@ -5,7 +5,7 @@ Mongodb Database ၏ တစ်ချို့သော Method, Function မျ�
 This mongodb knowledge sharing is intend to know how it work, if you want to know in detail, go to see...
 </h3>
 
-Mongodb official website => [mongodb](www.mongodb.com)
+Mongodb official website => [mongodb](https://www.mongodb.com)
 
 
 In this contents, 
