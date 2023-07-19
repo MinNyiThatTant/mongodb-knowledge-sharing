@@ -19,14 +19,13 @@ db.products.insertMany
 })
 
 //findOne
-
 db.products.findOne({ _id: 1 }, { name: 1, price: 1 })
 
 db.products.find({ price: 899 }, { name: 1, price: 1 })
 
 db.products.updateOne({
     _id: 4
-}, {
+}, { 
     $set: {
         "spec.ram": 16,
         "spec.screen": 10.7,
